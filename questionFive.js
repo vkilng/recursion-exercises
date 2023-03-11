@@ -5,4 +5,4 @@ const productOfArray = (arr) => {
     return arr[arr.length-1] * productOfArray(arr.splice(0,arr.length-1));
 }
 
-console.log(productOfArray([1,2,3,10]));
+export { productOfArray };

@@ -7,4 +7,6 @@ const all = (arr,callback) => {
     else return true && all(arr.slice(0,arr.length-1),callback);
 }
 
-console.log(all([1,0,9], (num) => {return num<7} ));
+export { all };
+
+// console.log(all([1,0,9], (num) => {return num<7} ));

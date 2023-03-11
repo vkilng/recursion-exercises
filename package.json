@@ -1,0 +1,25 @@
+{
+  "name": "recursion-exercises",
+  "version": "1.0.0",
+  "description": "- This is a bundle of exercises on the subject of recursion in javascript.\r - Each problem file must start with a comment line or two explaining the problem the following code tries to solve.\r - It is encouraged that the user solve the problems recursively. This is an exercise to get familiar with recursive algorithms.\r - Happy coding !",
+  "main": "odiAssignmentOne.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch --verbose \"\\.test\\.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkilng/recursion-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkilng/recursion-exercises/issues"
+  },
+  "homepage": "https://github.com/vkilng/recursion-exercises#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.5.0"
+  }
+}

@@ -27,11 +27,10 @@ const merge = (leftArray,rightArray) => {
         }
 
     }
-    if (left < leftArray.length) res = res.concat(leftArray.slice(left));
-    if (right < rightArray.length) res = res.concat(rightArray.slice(right));
+    res = res.concat(leftArray.slice(left));
+    res = res.concat(rightArray.slice(right));
 
     return res;
 }
 
-
-console.log(mergeSort([5,2,1,3,6,4]));
+export { mergeSort };

@@ -16,5 +16,4 @@ const fibsRec = (n) => {
     //return n <= 1 ? n : fibsRec(n-1) + fibsRec(n-2);
 }
 
-console.log(fibsIterate(8));
-console.log(fibsRec(8));
+export { fibsIterate, fibsRec };
